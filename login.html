@@ -1,0 +1,40 @@
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <title>Вход - Love and Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body class="coffee-bg"> 
+
+<body>
+    
+    <header class="header">
+    <div class="logo">☕ Love & Coffee</div>
+    <nav class="menu">
+        <a href="index.html">Главная</a>
+    </nav>
+</header>
+
+<main class="login-section">
+    <div class="login-container" id="login-box">
+        <h2>Вход в кофейню</h2>
+        <input type="text" id="username" placeholder="Введите ваш никнейм">
+        <input type="password" id="password" placeholder="Введите пароль">
+        <button class="btn-main" onclick="loginUser()">Войти</button>
+    </div>
+
+    <div class="login-container" id="welcome-box" style="display: none;">
+        <h2 id="welcome-text"></h2>
+        <p>Твоя кофейня ждет!</p>
+        <button class="btn-main" onclick="logoutUser()">Выйти</button>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>Сайт создан как зачетная работа в 2026 году.</p>
+</footer>
+
+<script src="script.js"></script>
+    </body>
+</html>
